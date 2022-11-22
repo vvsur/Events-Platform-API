@@ -4477,7 +4477,7 @@
   "resolved" "https://registry.npmjs.org/kleur/-/kleur-3.0.3.tgz"
   "version" "3.0.3"
 
-"knex@>=0.95.4":
+"knex@^2.3.0", "knex@>=0.95.4":
   "integrity" "sha512-WMizPaq9wRMkfnwKXKXgBZeZFOSHGdtoSz5SaLAVNs3WRDfawt9O89T4XyH52PETxjV8/kRk0Yf+8WBEP/zbYw=="
   "resolved" "https://registry.npmjs.org/knex/-/knex-2.3.0.tgz"
   "version" "2.3.0"
