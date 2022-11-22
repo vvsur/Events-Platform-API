@@ -1,11 +1,8 @@
-import { Attachment } from 'src/common/entities/attachment.entity';
-import {
-  CoreEntity,
-  MomentItem,
-} from 'src/common/entities/core.entity';
-import { Transaction } from 'src/transactions/entities/transaction.entity';
-import { Organizer } from 'src/organizers/entities/organizer.entity';
-import { Place } from 'src/places/entities/place.entity';
+import { Attachment } from '../../common/entities/attachment.entity';
+import { CoreEntity, MomentItem } from '../../common/entities/core.entity';
+import { Transaction } from '../../transactions/entities/transaction.entity';
+import { Organizer } from '../../organizers/entities/organizer.entity';
+import { Place } from '../../places/entities/place.entity';
 import { Review } from '../../reviews/entities/review.entity';
 
 export class Event extends CoreEntity {

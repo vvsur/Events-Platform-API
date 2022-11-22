@@ -1,6 +1,6 @@
-import { Attachment } from 'src/common/entities/attachment.entity';
-import { CoreEntity } from 'src/common/entities/core.entity';
-import { User } from 'src/users/entities/user.entity';
+import { Attachment } from '../../common/entities/attachment.entity';
+import { CoreEntity } from '../../common/entities/core.entity';
+import { User } from '../../users/entities/user.entity';
 
 export class ContactDetails {
   socials: Socials[];

@@ -1,6 +1,6 @@
-import { CoreEntity, PaymentGateway } from 'src/common/entities/core.entity';
-import { Event } from 'src/events/entities/event.entity';
-import { User } from 'src/users/entities/user.entity';
+import { CoreEntity, PaymentGateway } from '../../common/entities/core.entity';
+import { Event } from '../../events/entities/event.entity';
+import { User } from '../../users/entities/user.entity';
 
 export class Transaction extends CoreEntity {
   user_id: number;

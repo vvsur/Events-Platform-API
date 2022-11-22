@@ -1,8 +1,8 @@
-import { CoreEntity } from 'src/common/entities/core.entity';
-import { User } from 'src/users/entities/user.entity';
-import { Event } from 'src/events/entities/event.entity';
-import { Place } from 'src/places/entities/place.entity';
-import { Attachment } from 'src/common/entities/attachment.entity';
+import { CoreEntity } from '../../common/entities/core.entity';
+import { User } from '../../users/entities/user.entity';
+import { Event } from '../../events/entities/event.entity';
+import { Place } from '../../places/entities/place.entity';
+import { Attachment } from '../../common/entities/attachment.entity';
 
 export class Review extends CoreEntity {
   rating: number;

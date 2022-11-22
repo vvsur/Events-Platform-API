@@ -1,6 +1,6 @@
-import { CoreEntity } from 'src/common/entities/core.entity';
-import { Transaction } from 'src/transactions/entities/transaction.entity';
-import { Organizer } from 'src/organizers/entities/organizer.entity';
+import { CoreEntity } from '../../common/entities/core.entity';
+import { Transaction } from '../../transactions/entities/transaction.entity';
+import { Organizer } from '../../organizers/entities/organizer.entity';
 import { Profile } from './profile.entity';
 
 export class User extends CoreEntity {
