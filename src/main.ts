@@ -32,7 +32,10 @@ async function bootstrap() {
     )
     .build();
   const document = SwaggerModule.createDocument(app, config);
-  SwaggerModule.setup('docs', app, document);
+  SwaggerModule.setup('docs', app, document, {
+    customSiteTitle: 'GonnaVisit.com API Documentation',
+    customfavIcon: '/static/favicon.jpg',
+  });
   const PORT = process.env.PORT || 5000;
   await app.listen(PORT);
   console.log(`Application is running on: ${await app.getUrl()}`);

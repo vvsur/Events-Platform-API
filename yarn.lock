@@ -617,7 +617,7 @@
     "webpack" "5.58.2"
     "webpack-node-externals" "3.0.0"
 
-"@nestjs/common@^7.0.0 || ^8.0.0 || ^9.0.0", "@nestjs/common@^7.0.8 || ^8.0.0", "@nestjs/common@^7.0.9 || ^8.0.0 || ^9.0.0", "@nestjs/common@^8.0.0", "@nestjs/common@^8.0.0 || ^9.0.0", "@nestjs/common@^8.1.1", "@nestjs/common@>=6.7.0":
+"@nestjs/common@^7.0.0 || ^8.0.0 || ^9.0.0", "@nestjs/common@^7.0.8 || ^8.0.0", "@nestjs/common@^7.0.9 || ^8.0.0 || ^9.0.0", "@nestjs/common@^8.0.0", "@nestjs/common@^8.0.0 || ^9.0.0", "@nestjs/common@^8.1.1", "@nestjs/common@^9.0.0", "@nestjs/common@>=6.7.0":
   "integrity" "sha512-4do6SZrvBV4jz3Gf+uLz91kwkhXRxdAqe+jGLqNd4xMaArmT9L4xHngXdnv7wKOFCKb7Bc9EP4KfqS4z451npg=="
   "resolved" "https://registry.npmjs.org/@nestjs/common/-/common-8.1.1.tgz"
   "version" "8.1.1"
@@ -637,7 +637,7 @@
     "lodash" "4.17.21"
     "uuid" "8.3.2"
 
-"@nestjs/core@^7.0.9 || ^8.0.0 || ^9.0.0", "@nestjs/core@^8.0.0", "@nestjs/core@^8.1.1", "@nestjs/core@>=6.7.0":
+"@nestjs/core@^7.0.9 || ^8.0.0 || ^9.0.0", "@nestjs/core@^8.0.0", "@nestjs/core@^8.1.1", "@nestjs/core@^9.0.0", "@nestjs/core@>=6.7.0":
   "integrity" "sha512-EnQcLVK5Ct2flMg86Iz4rR5SW8yiCxMQPUZmbPdAH64u5ZArtA1E6kwZXrEUkstUYu5en+W+Q/iwCC8l252b6Q=="
   "resolved" "https://registry.npmjs.org/@nestjs/core/-/core-8.1.1.tgz"
   "version" "8.1.1"
@@ -689,6 +689,13 @@
     "fs-extra" "10.0.0"
     "jsonc-parser" "3.0.0"
     "pluralize" "8.0.0"
+
+"@nestjs/serve-static@^3.0.0":
+  "integrity" "sha512-TpXjgs4136dQqWUjEcONqppqXDsrJhRkmKWzuBMOUAnP4HjHpNmlycvkHnDnWSoG2YD4a7Enh4ViYGWqCfHStA=="
+  "resolved" "https://registry.npmjs.org/@nestjs/serve-static/-/serve-static-3.0.0.tgz"
+  "version" "3.0.0"
+  dependencies:
+    "path-to-regexp" "0.2.5"
 
 "@nestjs/swagger@^5.1.1":
   "integrity" "sha512-vdfTv/gpibGNwG9gmryG5zdVXR65ia6myteWju9FPpZaoICphzAUZotV23dF75JzpwV2Zv+CGkXOxUiqsjxCdg=="
@@ -5603,6 +5610,11 @@
   "integrity" "sha1-32BBeABfUi8V60SQ5yR6G/qmf4w= sha512-5DFkuoqlv1uYQKxy8omFBeJPQcdoE07Kv2sferDCrAq1ohOU+MSDswDIbnx3YAM60qIOnYa53wBhXW0EbMonrQ=="
   "resolved" "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.7.tgz"
   "version" "0.1.7"
+
+"path-to-regexp@0.2.5":
+  "integrity" "sha512-l6qtdDPIkmAmzEO6egquYDfqQGPMRNGjYtrU13HAXb3YSRrt7HSb1sJY0pKp6o2bAa86tSB6iwaW2JbthPKr7Q=="
+  "resolved" "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.2.5.tgz"
+  "version" "0.2.5"
 
 "path-to-regexp@3.2.0":
   "integrity" "sha512-jczvQbCUS7XmS7o+y1aEO9OBVFeZBQ1MDSEqmO7xSoPgOPoowY/SxLpZ6Vh97/8qHZOteiCKb7gkG9gA2ZUxJA=="

@@ -1,6 +1,6 @@
-import { PaginationArgs } from 'src/common/dto/pagination-args.dto';
+import { PaginationArgs } from '../../common/dto/pagination-args.dto';
 
-import { Paginator } from 'src/common/dto/paginator.dto';
+import { Paginator } from '../../common/dto/paginator.dto';
 import { Organizer } from '../entities/organizer.entity';
 
 export class OrganizerPaginator extends Paginator<Organizer> {

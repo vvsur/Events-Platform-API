@@ -1,8 +1,8 @@
 import { Inject, Injectable, HttpException, HttpStatus } from '@nestjs/common';
 
 import { plainToClass } from 'class-transformer';
-import { User } from 'src/users/entities/user.entity';
-import usersJson from 'src/users/users.json';
+import { User } from '../users/entities/user.entity';
+import usersJson from '../users/users.json';
 
 import { InjectKnex, Knex } from 'nestjs-knex';
 import { MailerService } from '@nestjs-modules/mailer';
@@ -13,7 +13,6 @@ const users = plainToClass(User, usersJson);
 
 @Injectable()
 export class MailService {
-
   private code;
 
   constructor(
@@ -30,7 +29,7 @@ export class MailService {
       template: 'confirm',
       context: {
         name,
-        code: this.code
+        code: this.code,
       },
     });
   }

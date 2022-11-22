@@ -8,7 +8,7 @@ import { UpdateTransactionDto } from './dto/update-transaction.dto';
 import transactionsJson from '@db/transactions.json';
 import { plainToClass } from 'class-transformer';
 import { Transaction } from './entities/transaction.entity';
-import { paginate } from 'src/common/pagination/paginate';
+import { paginate } from '../common/pagination/paginate';
 
 const transactions = plainToClass(Transaction, transactionsJson);
 

@@ -16,8 +16,8 @@ import {
 } from './dto/create-auth.dto';
 import { v4 as uuidv4 } from 'uuid';
 import { plainToClass } from 'class-transformer';
-import { User } from 'src/users/entities/user.entity';
-import usersJson from 'src/users/users.json';
+import { User } from '../users/entities/user.entity';
+import usersJson from '../users/users.json';
 import { hashPassword, verifyPassword } from '../db/utils/password';
 import { Account, AccountLogin } from '../db/dto/knex';
 import { InjectKnex, Knex } from 'nestjs-knex';

@@ -6,7 +6,7 @@ import { Organizer } from './entities/organizer.entity';
 import organizersJson from './organizers.json';
 import Fuse from 'fuse.js';
 import { GetOrganizersDto } from './dto/get-organizers.dto';
-import { paginate } from 'src/common/pagination/paginate';
+import { paginate } from '../common/pagination/paginate';
 
 const organizers = plainToClass(Organizer, organizersJson);
 const options = {

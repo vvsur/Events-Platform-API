@@ -7,7 +7,7 @@ import Fuse from 'fuse.js';
 
 import { User } from './entities/user.entity';
 import usersJson from './users.json';
-import { paginate } from 'src/common/pagination/paginate';
+import { paginate } from '../common/pagination/paginate';
 
 const users = plainToClass(User, usersJson);
 

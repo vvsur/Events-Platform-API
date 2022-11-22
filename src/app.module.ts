@@ -10,9 +10,14 @@ import { ConfigModule } from '@nestjs/config';
 import { KnexModule } from 'nestjs-knex';
 import { JwtModule } from '@nestjs/jwt';
 import { MailerModule } from '@nestjs-modules/mailer';
+import { ServeStaticModule } from '@nestjs/serve-static';
+import { join } from 'path';
 
 @Module({
   imports: [
+    ServeStaticModule.forRoot({
+      rootPath: join(__dirname, '..', 'public'),
+    }),
     ConfigModule.forRoot(),
     KnexModule.forRoot({
       config: {
