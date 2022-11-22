@@ -5,7 +5,7 @@ import { GetPlacesDto, PlacePaginator } from './dto/get-places.dto';
 import { UpdatePlaceDto } from './dto/update-place.dto';
 import { Place } from './entities/place.entity';
 import { paginate } from '../common/pagination/paginate';
-import placesJson from '@db/places.json';
+import placesJson from '../db/places.json';
 import Fuse from 'fuse.js';
 import { GetPopularPlacesDto } from './dto/get-popular-places.dto';
 

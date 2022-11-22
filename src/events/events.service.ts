@@ -5,7 +5,7 @@ import { GetEventsDto, EventPaginator } from './dto/get-events.dto';
 import { UpdateEventDto } from './dto/update-event.dto';
 import { Event } from './entities/event.entity';
 import { ContentSiteMapItem, City } from '../common/entities/core.entity';
-import eventsJson from '@db/events.json';
+import eventsJson from '../db/events.json';
 import Fuse from 'fuse.js';
 import { GetPopularEventsDto } from './dto/get-popular-events.dto';
 import { InjectKnex, Knex } from 'nestjs-knex';

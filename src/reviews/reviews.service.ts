@@ -5,7 +5,7 @@ import { paginate } from '../common/pagination/paginate';
 import { CreateReviewDto } from './dto/create-review.dto';
 import { UpdateReviewDto } from './dto/update-review.dto';
 import { GetReviewsDto, ReviewPaginator } from './dto/get-reviews.dto';
-import reviewJSON from '@db/reviews.json';
+import reviewJSON from '../db/reviews.json';
 import { Review } from './entities/review.entity';
 
 const reviews = plainToClass(Review, reviewJSON);
